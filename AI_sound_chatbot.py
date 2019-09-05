@@ -810,8 +810,8 @@ print('Models built and ready to go!')
 
 # Configure training/optimization
 clip = 50.0
-teacher_forcing_ratio = 0.6
-learning_rate = 0.0009
+teacher_forcing_ratio = 1.0
+learning_rate = 0.0001
 decoder_learning_ratio = 5.0
 n_iteration = 4000
 print_every = 1
