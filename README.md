@@ -9,9 +9,13 @@ An AI-based sound chatbot based on Pytorch framework and trained on the Cornell 
 ### Prerequisites
 
 python 3.5+
+
 pytorch 1.2
+
 pyttsx3 2.71
+
 PyAudio 0.2.11
+
 SpeechRecognition 3.8.1
 
 
