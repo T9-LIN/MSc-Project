@@ -23,12 +23,6 @@ All packages can use pip to install
 $ pip install 
 ```
 
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 The chatbot borrows code from the Pytorch chatbot tutorial https://github.com/pytorch/tutorials/blob/master/beginner_source/chatbot_tutorial.py
