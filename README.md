@@ -29,7 +29,7 @@ SpeechRecognition 3.8.1
 
 ### Installing
 
-All packages can use pip to install
+**All packages can use pip to install**
 
 pip is already installed for Python 2 >=2.7.9 or Python 3 >=3.4 
 
@@ -44,6 +44,10 @@ $ pip install <package name>
 ```shell
 $ pip3 install <package name>
 ```
+
+**Load training data**
+
+Download and unzip ``cornell_movie_dialogs_corpus.zip``, put it in a ``data/`` directory under the current directory.
 
 ### Corpus
 
