@@ -69,13 +69,32 @@ This corpus contains a large metadata-rich collection of fictional conversations
 
 ```
 
+### Running
+
+After all the preparations are done
+
+Find the Python File Path with the traning data in Command Prompt
+
+```shell
+$ cd <file's directory>
+```
+
+Directly run ``AI_sound_chatbot.py`` 
+
+```shell
+$ python AI_sound_chatbot.py
+```
+
+Other Python IDE can also be used, such as PyCharm, Sublime Text an so on
+
+
 ### Architecture
 
 At the heart of the AI-based chatbot is the Seq2Seq model, which has two independent recurrent neural networks, one for the encoder and the other for the decoder.
 
 **Seq2Seq Model**
  
- <img src="https://jeddy92.github.io/images/ts_intro/seq2seq_ts.png" width=100%  title="The encoder-decoder architecture" />
+<div align=center><img src="https://jeddy92.github.io/images/ts_intro/seq2seq_ts.png" width=90%  title="The encoder-decoder architecture" />
 
 Image source: https://jeddy92.github.io/JEddy92.github.io/ts_seq2seq_intro/
 
@@ -83,7 +102,7 @@ Image source: https://jeddy92.github.io/JEddy92.github.io/ts_seq2seq_intro/
 
 Encoder uses the bidirectional variant of GRU to take advantage of past and future contexts.
  
-  <img src="https://colah.github.io/posts/2015-09-NN-Types-FP/img/RNN-bidirectional.png" width=80%  title="Bidirectional RNN"/>
+<div align=center><img src="https://colah.github.io/posts/2015-09-NN-Types-FP/img/RNN-bidirectional.png" width=80%  title="Bidirectional RNN"/>
 
 Image source: https://colah.github.io/posts/2015-09-NN-Types-FP/
 
@@ -91,7 +110,7 @@ Image source: https://colah.github.io/posts/2015-09-NN-Types-FP/
 
 The decoder uses the Luong attention mechanism to generate an output based on the hidden state of all encoders, and only calculates the attention weights based on the hidden state of the decoder of the current time step.
 
- <img src="https://pytorch.org/tutorials/_images/global_attn.png" width=50%  title="Global attention mechanism"/>
+ <div align=center><img src="https://pytorch.org/tutorials/_images/global_attn.png" width=50%  title="Global attention mechanism"/>
 
 Image source: https://arxiv.org/abs/1508.04025
 
