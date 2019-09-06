@@ -104,7 +104,7 @@ Image source: https://jeddy92.github.io/JEddy92.github.io/ts_seq2seq_intro/
 
 **Encoder**
 
-Encoder uses the bidirectional variant of GRU to take advantage of past and future contexts.
+<div align=left> Encoder uses the bidirectional variant of GRU to take advantage of past and future contexts.
  
  
 <div align=center><img src="https://colah.github.io/posts/2015-09-NN-Types-FP/img/RNN-bidirectional.png" width=80%  title="Bidirectional RNN"/>
