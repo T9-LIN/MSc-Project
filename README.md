@@ -17,7 +17,7 @@ Upuload ``cornell_movie_dialogs_corpus.zip``
 
 
 ### Prerequisites
-
+```
 python 3.6+
 
 pytorch 1.2
@@ -27,7 +27,7 @@ pyttsx3 2.71
 PyAudio 0.2.11
 
 SpeechRecognition 3.8.1
-
+```
 
 ### Installing
 
@@ -112,6 +112,8 @@ Encoder uses the bidirectional variant of GRU to take advantage of past and futu
 Image source: https://colah.github.io/posts/2015-09-NN-Types-FP/
 
 
+<div align=left> 
+ 
 **Decoder**
 
 The decoder uses the Luong attention mechanism to generate an output based on the hidden state of all encoders, and only calculates the attention weights based on the hidden state of the decoder of the current time step.
@@ -122,6 +124,8 @@ The decoder uses the Luong attention mechanism to generate an output based on th
 Image source: https://arxiv.org/abs/1508.04025
 
 
+<div align=left>
+ 
 ### Acknowledgments
 
 The chatbot borrows code from the Pytorch chatbot tutorial 
